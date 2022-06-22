@@ -47,7 +47,7 @@ nav{
 nav > a{
     color: black;
     text-decoration: none;
-    font-weight: bold;
+    font-weight:bold;
     border-radius: 3px;
     padding: 10px;
     transition-duration: 0.3s;
@@ -70,10 +70,23 @@ main{
     border-radius: 3px;
     box-shadow: 4px 5px 16px 3px;
 
+}
 
-  
+h2{
+    color: black;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    margin-bottom: 15px;
 
+}
 
+p{
+    text-align: justify;
+    text-indent: 40px;
+    margin-top: 10px;
+}
 
-
+pre{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
 }
