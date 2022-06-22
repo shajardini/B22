@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+
+a{
+
+
+}
+.direita{
+    text-align: right;/*direita*/ 
+    margin: 100px; /*4 lados iguais*/
+    /* margin: 30px 150px 30px 150px; 4 lados diferentes
+    margin: 30px 150px;  1º superior e inferior - 2º esquerda e direta*/
+
+    /* padding-top:40px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding: 40px 30px 40px 30px; */
+
+    padding: 200px 100px;/* superior e inferior o 1º, 2º - direita e esquerda*/
+    padding: 50px; /*todos os lados iguais*/
+
+    border-width: 20px;
+    border-style: solid;
+    border-color: blue;
+
+    border: 20px solid blue;/* width, style, color */
+    border-radius: 10px 60px;
+    
+  
+
+
+}
+
+.teste{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin:auto;
+}
+
+.esquerda{
+    text-align: left; /*esquerda*/
+}
+
+.centralizado{
+    text-align: center;
+}
+
+.justificado{
+    text-align: justify;/*Justificado*/
+    text-indent: 30px;/* indentação */
+}
+

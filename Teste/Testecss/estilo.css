@@ -1,0 +1,22 @@
+body{
+    background-color: rgba(0, 0, 255, 0.32);
+    background-image: url("flor.jpg");
+    background-repeat: no-repeat;
+    background-size: 150px 300px; /* largura - altura*/
+    background-position: center center;
+    background-attachment: fixed;
+
+    /* color image repeat attachment position*/
+
+   
+
+
+}
+
+
+
+p{
+    color: black; /*Cor de fonte*/
+    background-color: rgb(170, 212, 128);
+}
+                                                                                                      

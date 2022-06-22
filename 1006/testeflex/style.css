@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+}
+
+.container{
+    background-color: rgb(238, 203, 203);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;/*direção no eixo principal*/
+    align-items: flex-end;/* direção do eixo perperndicular*/
+    row-gap: 90px; /*distância da linha*/
+    column-gap: 50px; /*distância coluna*/
+
+   
+
+}
+
+.item1{
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    margin:20px;
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+    background-color: rgb(167, 167, 241);
+}
+

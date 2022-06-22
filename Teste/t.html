@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando formulário</title>
+    <style>
+        #teste{
+            color: blue;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Sobre mim:</h1>
+    <form>
+   Nome: <input type="text" name="Text" id="texta">
+
+   Data de Nascimento: <input type="date" name="datanasc" id="datanasc"><br><br>
+
+   E-mail: <input type="email" name="email" id="email" placeholder="Digite seu e-mail aqui">
+
+   <h3>Coisas que eu gosto de fazer:</h3>
+    <input type="checkbox" name="gosto1" value="Ler">Ler<br>
+    <input type="checkbox" name="gosto2" value="Dancar">Dançar<br>
+    <input type="checkbox" name="cantar" id="cantar"> Cantar<br><br>
+
+    <h3>Prefiro:</h3>
+    <input type="radio" name="comida" id="comida">Pizza<br>
+    <input type="radio" name="comida" id="comida1">Hamburguer<br>
+    <input type="radio" name="comida" id="comida2">Chocolate<br><br>
+
+    Fale sobre você:
+    <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+
+    <h3>Hoje é:</h3>
+    <select name="seletor" id="seletor">
+        <option value="segunda">Segunda-Feira</option>
+        <option value="Terça-feira">Terça-feira</option>
+
+
+    </select>
+
+
+    Envie seu currículo: <input type="file" name="arquivo" id="arquivo" multiple>
+
+    Selecione sua cor favorita:<input type="color" name="favcolor" value="0000FF" ><br><br>
+
+    <input type="button" value="Enviando">
+
+    <input type="submit" value="Enviar"><!--Conteúdo é só texto-->
+
+
+    <button id="teste">nome do botão</button>
+
+
+
+</form>
+</body>
+</html>
